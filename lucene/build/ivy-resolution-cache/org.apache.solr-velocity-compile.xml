@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="velocity"
+		revision="working@XB-20151129CFDQ"
+		conf="compile"
+		confs="compile"
+		date="20151202094517"/>
+	<dependencies>
+		<module organisation="org.apache.velocity" name="velocity-tools">
+			<revision name="2.0" status="release" pubdate="20100511021408" resolver="public" artresolver="main" homepage="http://velocity.apache.org/tools/devel/" downloaded="true" searched="true" default="false" conf="master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="18200" time="1671" location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity-tools\ivy-2.0.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity-tools\ivy-2.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="velocity-tools" type="jar" ext="jar" status="successful" details="" size="346580" time="2733" location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity-tools\jars\velocity-tools-2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity" name="velocity">
+			<revision name="1.7" status="release" pubdate="20101130032813" resolver="public" artresolver="main" homepage="http://velocity.apache.org/engine/devel/" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<metadata-artifact status="successful" details="" size="10857" time="1428" location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity\ivy-1.7.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity\ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="velocity" type="jar" ext="jar" status="successful" details="" size="449505" time="3263" location="C:\Users\Administrator\.ivy2\cache\org.apache.velocity\velocity\jars\velocity-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.8.3" status="release" pubdate="20100325011600" resolver="public" artresolver="main" homepage="http://commons.apache.org/beanutils/" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="11198" time="1354" location="C:\Users\Administrator\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.8.3.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\commons-beanutils\commons-beanutils\ivy-1.8.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="1.8.3" rev-constraint-default="1.8.3" rev-constraint-dynamic="1.8.3" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="jar" ext="jar" status="successful" details="" size="232019" time="2249" location="C:\Users\Administrator\.ivy2\cache\commons-beanutils\commons-beanutils\jars\commons-beanutils-1.8.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="public" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="4929" time="0" location="C:\Users\Administrator\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" original-local-location="C:\Users\Administrator\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="velocity" conf="compile" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\Administrator\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="map-reduce"
+		revision="working@XB-20151129CFDQ"
+		conf="compile"
+		confs="compile"
+		date="20151202093717"/>
+	<dependencies>
+		<module organisation="org.kitesdk" name="kite-morphlines-hadoop-sequencefile">
+			<revision name="1.1.0" status="release" pubdate="20150616152130" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="4">
+				<metadata-artifact status="successful" details="" size="1762" time="1399" location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-hadoop-sequencefile\ivy-1.1.0.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-hadoop-sequencefile\ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/kitesdk/kite-morphlines-hadoop-sequencefile/1.1.0/kite-morphlines-hadoop-sequencefile-1.1.0.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="kite-morphlines-hadoop-sequencefile" type="jar" ext="jar" status="successful" details="" size="9703" time="1450" location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-hadoop-sequencefile\jars\kite-morphlines-hadoop-sequencefile-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/kitesdk/kite-morphlines-hadoop-sequencefile/1.1.0/kite-morphlines-hadoop-sequencefile-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.saxon" name="Saxon-HE">
+			<revision name="9.6.0-2" status="release" pubdate="20141114204625" resolver="public" artresolver="main" homepage="http://www.saxonica.com/" downloaded="true" searched="true" default="false" conf="master" position="3">
+				<license name="Mozilla Public License Version 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
+				<metadata-artifact status="successful" details="" size="3352" time="1529" location="C:\Users\Administrator\.ivy2\cache\net.sf.saxon\Saxon-HE\ivy-9.6.0-2.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\net.sf.saxon\Saxon-HE\ivy-9.6.0-2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.6.0-2/Saxon-HE-9.6.0-2.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="compile" rev="9.6.0-2" rev-constraint-default="9.6.0-2" rev-constraint-dynamic="9.6.0-2" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="Saxon-HE" type="jar" ext="jar" status="successful" details="" size="4172325" time="19619" location="C:\Users\Administrator\.ivy2\cache\net.sf.saxon\Saxon-HE\jars\Saxon-HE-9.6.0-2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.6.0-2/Saxon-HE-9.6.0-2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kitesdk" name="kite-morphlines-saxon">
+			<revision name="1.1.0" status="release" pubdate="20150616152645" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="2">
+				<metadata-artifact status="successful" details="" size="3654" time="1440" location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-saxon\ivy-1.1.0.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-saxon\ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/kitesdk/kite-morphlines-saxon/1.1.0/kite-morphlines-saxon-1.1.0.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="kite-morphlines-saxon" type="jar" ext="jar" status="successful" details="" size="32715" time="1638" location="C:\Users\Administrator\.ivy2\cache\org.kitesdk\kite-morphlines-saxon\jars\kite-morphlines-saxon-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/kitesdk/kite-morphlines-saxon/1.1.0/kite-morphlines-saxon-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.argparse4j" name="argparse4j">
+			<revision name="0.4.3" status="release" pubdate="20140105174559" resolver="public" artresolver="main" homepage="http://argparse4j.sourceforge.net" downloaded="true" searched="true" default="false" conf="master" position="1">
+				<license name="MIT" url="https://raw.github.com/tatsuhiro-t/argparse4j/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="4644" time="1464" location="C:\Users\Administrator\.ivy2\cache\net.sourceforge.argparse4j\argparse4j\ivy-0.4.3.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\net.sourceforge.argparse4j\argparse4j\ivy-0.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/argparse4j/argparse4j/0.4.3/argparse4j-0.4.3.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="compile" rev="0.4.3" rev-constraint-default="0.4.3" rev-constraint-dynamic="0.4.3" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="argparse4j" type="jar" ext="jar" status="successful" details="" size="81722" time="2059" location="C:\Users\Administrator\.ivy2\cache\net.sourceforge.argparse4j\argparse4j\jars\argparse4j-0.4.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/argparse4j/argparse4j/0.4.3/argparse4j-0.4.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
+			<revision name="2.6.0" status="release" pubdate="20141114064858" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="master" position="0">
+				<metadata-artifact status="successful" details="" size="3492" time="1332" location="C:\Users\Administrator\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.0.xml" searched="true" original-local-location="C:\Users\Administrator\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="map-reduce" conf="compile" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@XB-20151129CFDQ"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-core" type="jar" ext="jar" status="successful" details="" size="1509399" time="8538" location="C:\Users\Administrator\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\jars\hadoop-mapreduce-client-core-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="example"
+		revision="working@XB-20151129CFDQ"
+		conf="servlet"
+		confs="jetty, servlet"
+		date="20151202091236"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
